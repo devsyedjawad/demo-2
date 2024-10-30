@@ -1,0 +1,124 @@
+
+
+html,body{
+    background-color: black;
+    color: aliceblue;
+    font-family: "Oswald", sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-container{
+    display: flex;
+    margin-top:30px ;
+}
+
+.nav-items{
+    margin-left: auto;
+}
+
+.title h1{
+    font-size: 60px;
+    font-weight: 600;
+    color:rgb(175, 14, 14);
+    margin-left: 30px;
+}
+
+.item-one ul{
+    display: flex;
+
+}
+
+.item-one ul li{
+    margin-right: 40px;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.item-one a {
+    text-decoration: none;
+}
+
+
+
+ .active:hover{
+    color: rgb(175, 14, 14);
+    border-bottom: 2px solid rgb(175, 14, 14);
+    
+}
+
+.main-sec{
+    display: flex;
+    margin-top: 100px;
+}
+
+.imgs {
+    
+}
+
+.imgs img{
+   height: 500px;
+   
+}
+
+.des{
+    margin-top: 70px;
+}
+
+.des h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.des h1 span{
+    color:rgb(175, 14, 14) ;
+}
+
+.des h2{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.des h2 span{
+    color:rgb(175, 14, 14) ;
+    font-weight: 600;
+}
+
+.des p{
+    margin-top: 20px;
+    width: 600px;
+    line-height: 1.2;
+    font-size: 20px;
+}
+
+.icons{
+    margin-top: 30px;
+}
+
+.icons img{
+   
+    border-radius: 50%;
+    border: 1px solid  #AA2B2B ;  
+    margin-right: 20px;
+   
+}
+
+.btn button{
+    background-color: black;
+    color: #AA2B2B;
+    border: 1px solid #AA2B2B;
+    margin-top: 40px;
+    /* padding: 10px; */
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 40px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
